@@ -53,3 +53,121 @@ OETrace :
 
 2/10/2017 3:21:03 PM | 
 ------------------
+2/10/2017 3:43:35 PM | 
+2/10/2017 3:43:35 PM | 
+Message : La valeur ne peut pas être null.
+2/10/2017 3:43:35 PM | 
+Nom du paramètre : key
+2/10/2017 3:43:35 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.InternalSelectElementsIsEqual(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName)
+2/10/2017 3:43:35 PM | 
+Params : 
+2/10/2017 3:43:35 PM | 
+MethodeName : Void ThrowArgumentNullException(System.ExceptionArgument)
+2/10/2017 3:43:35 PM | 
+Stamp : 2/10/2017 3:43:34 PM
+2/10/2017 3:43:35 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/10/2017 3:43:35 PM | 
+AvailablePhysicalMemory : 1.01 Go 
+2/10/2017 3:43:35 PM | 
+TotalPhysicalMemory : 3 Go 
+2/10/2017 3:43:35 PM | 
+AvailableVirtualMemory : 3.15 Go 
+2/10/2017 3:43:35 PM | 
+TotalVirtualMemory : 4 Go 
+2/10/2017 3:43:35 PM | 
+WorkingSet : 413.96 Mo 
+2/10/2017 3:43:35 PM | 
+PagedMemorySize : 423.95 Mo 
+2/10/2017 3:43:35 PM | 
+TotalMemory : 39.55 Mo 
+2/10/2017 3:43:35 PM | 
+
+2/10/2017 3:43:35 PM | 
+ExTrace : 
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElementsIsEqual(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 28
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElements(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 75
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElements(String[] idArray, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 170
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.FrmPageEdit.SelectElements(String[] idArray, String zoneName, Int32 zoneStateName, Boolean activate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 188
+2/10/2017 3:43:35 PM | 
+à openElement.WebSite.UIAction.PageEdit.Open(String dataPagePath, Rights rights, Boolean openAsync, String[] selectElemID) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 312
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.PageEditFromJs._OpenSortProperty(String id, String propertyName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 833
+2/10/2017 3:43:35 PM | 
+
+2/10/2017 3:43:35 PM | 
+OETrace : 
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/10/2017 3:43:35 PM | 
+à openElement.Forms.PageEditFromJs._OpenSortProperty(String id, String propertyName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 873
+2/10/2017 3:43:35 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/10/2017 3:43:35 PM | 
+
+2/10/2017 3:43:35 PM | 
+------------------
+2/10/2017 3:43:52 PM | 
+2/10/2017 3:43:52 PM | 
+Message : La valeur ne peut pas être null.
+2/10/2017 3:43:52 PM | 
+Nom du paramètre : key
+2/10/2017 3:43:52 PM | 
+LastTrace : openElement.Forms.FrmPageEdit.InternalSelectElementsIsEqual(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName)
+2/10/2017 3:43:52 PM | 
+Params : 
+2/10/2017 3:43:52 PM | 
+MethodeName : Void ThrowArgumentNullException(System.ExceptionArgument)
+2/10/2017 3:43:52 PM | 
+Stamp : 2/10/2017 3:43:52 PM
+2/10/2017 3:43:52 PM | 
+OSFullName : Microsoft Windows 7 Édition Familiale Premium 
+2/10/2017 3:43:52 PM | 
+AvailablePhysicalMemory : 1023.66 Mo 
+2/10/2017 3:43:52 PM | 
+TotalPhysicalMemory : 3 Go 
+2/10/2017 3:43:52 PM | 
+AvailableVirtualMemory : 3.15 Go 
+2/10/2017 3:43:52 PM | 
+TotalVirtualMemory : 4 Go 
+2/10/2017 3:43:52 PM | 
+WorkingSet : 420.62 Mo 
+2/10/2017 3:43:52 PM | 
+PagedMemorySize : 430.21 Mo 
+2/10/2017 3:43:52 PM | 
+TotalMemory : 40.61 Mo 
+2/10/2017 3:43:52 PM | 
+
+2/10/2017 3:43:52 PM | 
+ExTrace : 
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElementsIsEqual(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 28
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElements(Dictionary`2 elements, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 75
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.FrmPageEdit.InternalSelectElements(String[] idArray, String zoneName, String propertyName, String textEditData, Int32 stateZoneName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 170
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.FrmPageEdit.SelectElements(String[] idArray, String zoneName, Int32 zoneStateName, Boolean activate) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\FrmPageEdit.Select.vb:ligne 188
+2/10/2017 3:43:52 PM | 
+à openElement.WebSite.UIAction.PageEdit.Open(String dataPagePath, Rights rights, Boolean openAsync, String[] selectElemID) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Class\WebSite\UIAction\PageEdit.vb:ligne 312
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.PageEditFromJs._OpenSortProperty(String id, String propertyName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 833
+2/10/2017 3:43:52 PM | 
+
+2/10/2017 3:43:52 PM | 
+OETrace : 
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.PageEditFromJs.TrapError(Exception ex, String infosParams) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 35
+2/10/2017 3:43:52 PM | 
+à openElement.Forms.PageEditFromJs._OpenSortProperty(String id, String propertyName) dans C:\Users\Win7Dev64\Source\Workspaces\openElement\App\openElement\Form\Page\PageEditFromJs.vb:ligne 873
+2/10/2017 3:43:52 PM | 
+à openElement.My.MyApplication.Main(String[] Args) dans 17d14f5c-a337-4978-8281-53493378c1071.vb:ligne 82
+2/10/2017 3:43:52 PM | 
+
+2/10/2017 3:43:52 PM | 
+------------------
